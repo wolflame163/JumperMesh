@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+_chrome_shot/
+
+# Large archives / binaries
+Archive.zip
+*.pdf
+
+# Heavy experiment artifacts (regenerable)
+results_3d_*/
+filtered_*/
+results_3d_intense_master.log
+*.log
+
+# Keep small top-level summaries if present
+!results_3d_intense_summary.json

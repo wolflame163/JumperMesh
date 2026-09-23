@@ -1,0 +1,829 @@
+{
+  "n_ssc": 66,
+  "n_logical_edges": 8712,
+  "stages": [
+    "L1-L2",
+    "L2-L3"
+  ],
+  "row_widths": [
+    4,
+    8,
+    10,
+    10,
+    10,
+    10,
+    8,
+    6
+  ],
+  "mapping": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      7
+    ]
+  ],
+  "C_directed_max": 276,
+  "routing": {
+    "type": "unsplittable_shortest_path_load_aware_greedy",
+    "seed": 1,
+    "sample_cap": 160
+  },
+  "port_model": {
+    "ssc_local_ids": "0..P-1 per SSC",
+    "LOCAL": "Clos stage attach on this die",
+    "face_channel": "N/E/S/W channel index on that D2D face"
+  },
+  "ssc_port_counts": [
+    {
+      "ssc": 0,
+      "pos": [
+        0,
+        3
+      ],
+      "num_logical_ports": 1074
+    },
+    {
+      "ssc": 1,
+      "pos": [
+        0,
+        4
+      ],
+      "num_logical_ports": 1316
+    },
+    {
+      "ssc": 2,
+      "pos": [
+        0,
+        5
+      ],
+      "num_logical_ports": 1308
+    },
+    {
+      "ssc": 3,
+      "pos": [
+        0,
+        6
+      ],
+      "num_logical_ports": 1072
+    },
+    {
+      "ssc": 4,
+      "pos": [
+        1,
+        1
+      ],
+      "num_logical_ports": 950
+    },
+    {
+      "ssc": 5,
+      "pos": [
+        1,
+        2
+      ],
+      "num_logical_ports": 1452
+    },
+    {
+      "ssc": 6,
+      "pos": [
+        1,
+        3
+      ],
+      "num_logical_ports": 2030
+    },
+    {
+      "ssc": 7,
+      "pos": [
+        1,
+        4
+      ],
+      "num_logical_ports": 1760
+    },
+    {
+      "ssc": 8,
+      "pos": [
+        1,
+        5
+      ],
+      "num_logical_ports": 1756
+    },
+    {
+      "ssc": 9,
+      "pos": [
+        1,
+        6
+      ],
+      "num_logical_ports": 2038
+    },
+    {
+      "ssc": 10,
+      "pos": [
+        1,
+        7
+      ],
+      "num_logical_ports": 1452
+    },
+    {
+      "ssc": 11,
+      "pos": [
+        1,
+        8
+      ],
+      "num_logical_ports": 946
+    },
+    {
+      "ssc": 12,
+      "pos": [
+        2,
+        0
+      ],
+      "num_logical_ports": 870
+    },
+    {
+      "ssc": 13,
+      "pos": [
+        2,
+        1
+      ],
+      "num_logical_ports": 1624
+    },
+    {
+      "ssc": 14,
+      "pos": [
+        2,
+        2
+      ],
+      "num_logical_ports": 1848
+    },
+    {
+      "ssc": 15,
+      "pos": [
+        2,
+        3
+      ],
+      "num_logical_ports": 2060
+    },
+    {
+      "ssc": 16,
+      "pos": [
+        2,
+        4
+      ],
+      "num_logical_ports": 2052
+    },
+    {
+      "ssc": 17,
+      "pos": [
+        2,
+        5
+      ],
+      "num_logical_ports": 2056
+    },
+    {
+      "ssc": 18,
+      "pos": [
+        2,
+        6
+      ],
+      "num_logical_ports": 2066
+    },
+    {
+      "ssc": 19,
+      "pos": [
+        2,
+        7
+      ],
+      "num_logical_ports": 1848
+    },
+    {
+      "ssc": 20,
+      "pos": [
+        2,
+        8
+      ],
+      "num_logical_ports": 1622
+    },
+    {
+      "ssc": 21,
+      "pos": [
+        2,
+        9
+      ],
+      "num_logical_ports": 870
+    },
+    {
+      "ssc": 22,
+      "pos": [
+        3,
+        0
+      ],
+      "num_logical_ports": 1224
+    },
+    {
+      "ssc": 23,
+      "pos": [
+        3,
+        1
+      ],
+      "num_logical_ports": 1684
+    },
+    {
+      "ssc": 24,
+      "pos": [
+        3,
+        2
+      ],
+      "num_logical_ports": 1980
+    },
+    {
+      "ssc": 25,
+      "pos": [
+        3,
+        3
+      ],
+      "num_logical_ports": 2128
+    },
+    {
+      "ssc": 26,
+      "pos": [
+        3,
+        4
+      ],
+      "num_logical_ports": 2180
+    },
+    {
+      "ssc": 27,
+      "pos": [
+        3,
+        5
+      ],
+      "num_logical_ports": 2190
+    },
+    {
+      "ssc": 28,
+      "pos": [
+        3,
+        6
+      ],
+      "num_logical_ports": 2132
+    },
+    {
+      "ssc": 29,
+      "pos": [
+        3,
+        7
+      ],
+      "num_logical_ports": 1980
+    },
+    {
+      "ssc": 30,
+      "pos": [
+        3,
+        8
+      ],
+      "num_logical_ports": 1682
+    },
+    {
+      "ssc": 31,
+      "pos": [
+        3,
+        9
+      ],
+      "num_logical_ports": 1218
+    },
+    {
+      "ssc": 32,
+      "pos": [
+        4,
+        0
+      ],
+      "num_logical_ports": 1228
+    },
+    {
+      "ssc": 33,
+      "pos": [
+        4,
+        1
+      ],
+      "num_logical_ports": 1714
+    },
+    {
+      "ssc": 34,
+      "pos": [
+        4,
+        2
+      ],
+      "num_logical_ports": 1998
+    },
+    {
+      "ssc": 35,
+      "pos": [
+        4,
+        3
+      ],
+      "num_logical_ports": 2134
+    },
+    {
+      "ssc": 36,
+      "pos": [
+        4,
+        4
+      ],
+      "num_logical_ports": 2198
+    },
+    {
+      "ssc": 37,
+      "pos": [
+        4,
+        5
+      ],
+      "num_logical_ports": 2208
+    },
+    {
+      "ssc": 38,
+      "pos": [
+        4,
+        6
+      ],
+      "num_logical_ports": 2140
+    },
+    {
+      "ssc": 39,
+      "pos": [
+        4,
+        7
+      ],
+      "num_logical_ports": 2002
+    },
+    {
+      "ssc": 40,
+      "pos": [
+        4,
+        8
+      ],
+      "num_logical_ports": 1716
+    },
+    {
+      "ssc": 41,
+      "pos": [
+        4,
+        9
+      ],
+      "num_logical_ports": 1216
+    },
+    {
+      "ssc": 42,
+      "pos": [
+        5,
+        0
+      ],
+      "num_logical_ports": 886
+    },
+    {
+      "ssc": 43,
+      "pos": [
+        5,
+        1
+      ],
+      "num_logical_ports": 1706
+    },
+    {
+      "ssc": 44,
+      "pos": [
+        5,
+        2
+      ],
+      "num_logical_ports": 1908
+    },
+    {
+      "ssc": 45,
+      "pos": [
+        5,
+        3
+      ],
+      "num_logical_ports": 2066
+    },
+    {
+      "ssc": 46,
+      "pos": [
+        5,
+        4
+      ],
+      "num_logical_ports": 2132
+    },
+    {
+      "ssc": 47,
+      "pos": [
+        5,
+        5
+      ],
+      "num_logical_ports": 2132
+    },
+    {
+      "ssc": 48,
+      "pos": [
+        5,
+        6
+      ],
+      "num_logical_ports": 2064
+    },
+    {
+      "ssc": 49,
+      "pos": [
+        5,
+        7
+      ],
+      "num_logical_ports": 1912
+    },
+    {
+      "ssc": 50,
+      "pos": [
+        5,
+        8
+      ],
+      "num_logical_ports": 1710
+    },
+    {
+      "ssc": 51,
+      "pos": [
+        5,
+        9
+      ],
+      "num_logical_ports": 880
+    },
+    {
+      "ssc": 52,
+      "pos": [
+        6,
+        1
+      ],
+      "num_logical_ports": 984
+    },
+    {
+      "ssc": 53,
+      "pos": [
+        6,
+        2
+      ],
+      "num_logical_ports": 1752
+    },
+    {
+      "ssc": 54,
+      "pos": [
+        6,
+        3
+      ],
+      "num_logical_ports": 1854
+    },
+    {
+      "ssc": 55,
+      "pos": [
+        6,
+        4
+      ],
+      "num_logical_ports": 1924
+    },
+    {
+      "ssc": 56,
+      "pos": [
+        6,
+        5
+      ],
+      "num_logical_ports": 1922
+    },
+    {
+      "ssc": 57,
+      "pos": [
+        6,
+        6
+      ],
+      "num_logical_ports": 1856
+    },
+    {
+      "ssc": 58,
+      "pos": [
+        6,
+        7
+      ],
+      "num_logical_ports": 1766
+    },
+    {
+      "ssc": 59,
+      "pos": [
+        6,
+        8
+      ],
+      "num_logical_ports": 992
+    },
+    {
+      "ssc": 60,
+      "pos": [
+        7,
+        2
+      ],
+      "num_logical_ports": 928
+    },
+    {
+      "ssc": 61,
+      "pos": [
+        7,
+        3
+      ],
+      "num_logical_ports": 1380
+    },
+    {
+      "ssc": 62,
+      "pos": [
+        7,
+        4
+      ],
+      "num_logical_ports": 1544
+    },
+    {
+      "ssc": 63,
+      "pos": [
+        7,
+        5
+      ],
+      "num_logical_ports": 1542
+    },
+    {
+      "ssc": 64,
+      "pos": [
+        7,
+        6
+      ],
+      "num_logical_ports": 1382
+    },
+    {
+      "ssc": 65,
+      "pos": [
+        7,
+        7
+      ],
+      "num_logical_ports": 932
+    }
+  ],
+  "outputs": {
+    "txt": "logical_edge_routes.txt",
+    "jsonl": "logical_edge_routes.jsonl"
+  }
+}
